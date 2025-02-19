@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where in the World?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">Where in the World?</div>
+            <button class="darkLight">
+                <i class="bx bx-moon"></i>
+                <span>Dark Mode</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="box">
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Search for a country...">
+                <i class="bx bx-search-alt-2"></i>
+            </div>
+            <div class="filter">
+                <select id="regionFilter">
+                    <option value="">Filter by Region</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Oceania">Oceania</option>
+                    <option value="Americas">Americas</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container"></div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
